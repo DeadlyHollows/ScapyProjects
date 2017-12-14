@@ -1,0 +1,15 @@
+# A list for Brute force SSID pwning atttacks ...
+# Comment any SSID you want to skip by placing a pound sign (#) before it ...
+
+default
+cisco
+NIT-WIFI
+DIR_WIFI
+TEST_ISE
+edurom
+rakesh
+1234
+alankar@suchi
+pooja
+Pwned
+Secure
