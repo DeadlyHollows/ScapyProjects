@@ -14,7 +14,7 @@ def pwnSSID(pkt):
 			if tmp.ID==0:
 				if tmp.len==0:     ###  Beacon Frame with hidden SSID ...
 					APList[pkt.addr3]="########################################################################################"
-					print pkt.addr3, " CHUPA KE RAKHA HAI SAALA ..."
+					print pkt.addr3, " has its SSID hidden !!!"
 				else:
 					APList[pkt.addr3]=tmp.info
 				break
